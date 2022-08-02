@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "t1",
+      "setup": "",
+      "run": "./test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "t2",
+      "setup": "",
+      "run": "./test/CMakeLists.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "t2",
+      "setup": "",
+      "run": "./CMakeLists.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "e4",
+      "setup": "",
+      "run": "./test make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "e5",
+      "setup": "",
+      "run": "cmake",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "e6",
+      "setup": "",
+      "run": "./test cmake",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "e8",
+      "setup": "",
+      "run": "./test/CMakeLists.txt cmake",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
